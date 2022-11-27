@@ -11,4 +11,11 @@ html {
 
 body {
     background-color: black;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+}
+
+#presentation {
+    color: rgb(0, 238, 255);
 }
