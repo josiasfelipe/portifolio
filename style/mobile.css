@@ -36,6 +36,20 @@ html, body {
 
 #presentation > nav > a {
     display: block;
+    text-decoration: none;
+    padding: 5px 0px 5px 0px;
+    margin: auto;
+    width: 200px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border-top: 1px solid var(--cor3);
+    border-bottom: 1px solid var(--cor3);
+}
+
+#presentation > nav > a:hover {
+    display: block;
+    background-color: #451C99;
+    color: #110C1A;
 }
 
 #projects {
