@@ -18,4 +18,25 @@ body {
 
 #presentation {
     color: rgb(0, 238, 255);
+    text-align: center;
+}
+
+#presentation > img {
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+#presentation > nav > a {
+    display: block;
+}
+
+#projects {
+    display: block;
+    height: 300px;
+    width: 95vw;
+    background-color: white;
+    text-align: center;
+    color: brown;
+    margin: auto;
+    margin-top: 10px;
 }
