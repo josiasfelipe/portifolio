@@ -31,8 +31,23 @@ html, body {
 }
 
 #presentation > img {
+    border: 4px solid #32254D;
     border-radius: 50%;
     margin-top: 20px;
+    box-shadow: 0px 0px 5px var(--cor4);
+}
+
+#presentation > h1 {
+    font-family: system-ui, sans-serif;
+    color: #6d2bf1;
+    text-shadow: 0px 0px 4px #6d2bf16b;
+}
+
+#presentation > p {
+    text-align: justify;
+    padding: 5px 15px;
+    font-family: var(--fonte_padrao);
+    color: white;
 }
 
 #presentation > nav > a {
@@ -49,8 +64,8 @@ html, body {
     margin-bottom: 2px;
     border-top: 1px solid var(--cor3);
     border-bottom: 1px solid var(--cor3);
-    border-left: 20px solid #32254d17;
-    border-right: 20px solid #32254d17;
+    border-left: 20px solid #32254d0c;
+    border-right: 20px solid #32254d0c;
     
 }
 
