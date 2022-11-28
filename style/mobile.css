@@ -11,17 +11,18 @@
     --cor3: #32254D;
     --cor4: #451C99;
 
-    --fonte_padrao: Arial, Helvetica, Verdana, sans-serif;
+    --fonte_padrao: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --fonte_destaque: 'Bebas Neue', cursive;
     --fonte_android: 'Android', cursive;
 }
-
 
 html, body {
     background-color: var(--cor1);
     height: 100vh;
     width: 96vw;
     color: white;
+    margin: auto;
+    padding: 0px;
 }
 
 #presentation {
@@ -35,22 +36,28 @@ html, body {
 }
 
 #presentation > nav > a {
-    display: block;
+    display: inline-block;
     text-decoration: none;
+    font-family: var(--fonte_padrao);
+    font-size: small;
+    font-weight: bold;
     color: #6d2bf1;
     padding: 5px 0px 5px 0px;
     margin: auto;
-    width: 200px;
-    margin-top: 2px;
+    width: 100px;
+    margin-top: 20px;
     margin-bottom: 2px;
     border-top: 1px solid var(--cor3);
     border-bottom: 1px solid var(--cor3);
+    border-left: 20px solid #32254d17;
+    border-right: 20px solid #32254d17;
+    
 }
 
-#presentation > nav > a:hover {
-    display: block;
+#presentation > nav > a:active {
     background-color: #451C99;
     color: #110C1A;
+    /* transition: transform 1s, border 0.3s; */
 }
 
 #projects {
