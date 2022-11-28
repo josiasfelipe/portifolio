@@ -72,7 +72,10 @@ html, body {
 #presentation > nav > a:active {
     background-color: #451C99;
     color: #110C1A;
-    /* transition: transform 1s, border 0.3s; */
+}
+
+.icon {
+    height: 14px;
 }
 
 #projects {
