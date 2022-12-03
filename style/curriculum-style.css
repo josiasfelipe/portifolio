@@ -31,23 +31,27 @@ header {
     color: #451C99;
     width: 96vw;
     border-bottom: 1px solid var(--cor4);
+    padding-top: 8px;
+    padding-bottom: 10px;
+    box-shadow: 0px 2px 4px #461c9971;
 }
 
 #top-menu {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
 }
 
 .header-menu {
-    padding: 5px 20px;
-    margin: auto;
+    text-decoration: none;
+    color: #451C99;
+    padding: 8px 20px;
+    padding-top: 10px;
 }
 
-#home-menu {
-    text-decoration: none;
-    margin-inline-start: auto;
+.header-menu:active {
+    color: var(--cor5);
 }
+
 
 #curriculum-intro {
     background-color: var(--cor5);
