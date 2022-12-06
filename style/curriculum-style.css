@@ -59,7 +59,7 @@ header {
     border-radius: 4px;
 }
 
-#curriculum-intro {
+#intro {
     background-color: var(--cor5);
     font-size: 4vw;
     color: var(--cor1);
@@ -69,17 +69,17 @@ header {
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.288);
 }
 
-#curriculum-intro > h1 {
+#intro > h1 {
     text-align: center;
     font-size: 3em;
     font-family: var(--fonte_destaque);
 }
 
-#curriculum-intro > h2 {
+#intro > h2 {
     margin: 5px 0px 3px 0px;
 }
 
-#curriculum-intro > p > a {
+#intro > p > a {
     text-decoration: none;
     color: var(--cor1);
 }
@@ -91,4 +91,22 @@ header {
 .social-media {
     color: var(--cor4);
     font-weight: bold;
+}
+
+#education {
+    background-color: var(--cor5);
+    font-size: 4vw;
+    color: var(--cor1);
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.288);
+}
+
+#education > h2 {
+    margin-bottom: 10px;
+}
+
+#education > ol > li {
+    text-align: center;
 }
