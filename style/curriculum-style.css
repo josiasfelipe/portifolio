@@ -17,6 +17,7 @@
 }
 
 html, body {
+    position: relative;
     background-color: var(--cor1);
     font-family: var(--fonte_padrao);
     height: 100vh;
@@ -26,6 +27,9 @@ html, body {
 }
 
 header {
+    position: sticky;
+    top: 0px;
+
     display: block;
     background-color: var(--cor1);
     color: #451C99;
