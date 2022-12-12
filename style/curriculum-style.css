@@ -33,7 +33,7 @@ header {
     display: block;
     background-color: var(--cor1);
     color: #451C99;
-    width: 96vw;
+    width: 100vw;
     border-bottom: 1px solid var(--cor4);
     padding-top: 8px;
     padding-bottom: 10px;
