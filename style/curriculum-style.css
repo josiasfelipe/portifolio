@@ -43,6 +43,7 @@ header {
 #top-menu {
     display: flex;
     justify-content: space-between;
+    width: 96vw;
 }
 
 .header-menu {
@@ -68,6 +69,8 @@ header {
     font-size: 4vw;
     color: var(--cor1);
     margin-top: 10px;
+    margin-right: 3px;
+    margin-left: 3px;
     padding: 10px;
     border-radius: 4px;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.288);
