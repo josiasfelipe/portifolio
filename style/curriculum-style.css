@@ -13,15 +13,15 @@
 
     --fonte_padrao: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --fonte_destaque: 'Cinzel', serif;
-    --fonte_android: 'Android', cursive; /* ???? */
 }
 
 html, body {
     position: relative;
+
     background-color: var(--cor1);
     font-family: var(--fonte_padrao);
     height: 100vh;
-    width: 96vw;
+    width: 100vw;
     color: white;
     margin: auto;
 }
@@ -43,7 +43,6 @@ header {
 #top-menu {
     display: flex;
     justify-content: space-between;
-    width: 100vw;
 }
 
 .header-menu {
@@ -64,13 +63,13 @@ header {
     border-radius: 4px;
 }
 
-#intro {
+.feed-box {
     background-color: var(--cor5);
     font-size: 4vw;
     color: var(--cor1);
     margin-top: 10px;
-    margin-right: 3px;
-    margin-left: 3px;
+    margin-right: 4px;
+    margin-left: 4px;
     padding: 10px;
     border-radius: 4px;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.288);
@@ -95,19 +94,27 @@ header {
     height: 17px;
 }
 
-.social-media {
+.emphasis {
     color: var(--cor4);
     font-weight: bold;
 }
 
-#education {
-    background-color: var(--cor5);
-    font-size: 4vw;
-    color: var(--cor1);
-    margin-top: 10px;
-    padding: 10px;
-    border-radius: 4px;
-    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.288);
+.range {
+    display: block;
+    background-image: linear-gradient(to right, var(--cor3) 100%, var(--cor5));
+    border-radius: 6px;
+    color: var(--cor4);
+    width: 200px;
+    height: 4px;
+    border: 3px solid var(--cor4);
+}
+
+#english {
+    background-image: linear-gradient(to right, var(--cor3) 70%, var(--cor5));
+}
+
+#spanish {
+    background-image: linear-gradient(to right, var(--cor3) 25%, var(--cor5), var(--cor5), var(--cor5));
 }
 
 #education > h2 {
