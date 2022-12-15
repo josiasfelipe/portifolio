@@ -7,8 +7,8 @@
 :root {
     --cor1: #110C1A;
     --cor2: #1A0A38;
-    --cor3: #32254D;
-    --cor4: #451C99;
+    --cor3: #342b47;
+    --cor4: #6d2bf1;
     --cor5: #decdffd3;
 
     --fonte_padrao: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -32,7 +32,7 @@ header {
 
     display: block;
     background-color: var(--cor1);
-    color: #451C99;
+    color: var(--cor4);
     width: 100vw;
     border-bottom: 1px solid var(--cor4);
     padding-top: 8px;
@@ -47,7 +47,7 @@ header {
 
 .header-menu {
     text-decoration: none;
-    color: #451C99;
+    color: var(--cor4);
     padding: 8px 20px;
     padding-top: 10px;
 }
@@ -95,7 +95,7 @@ header {
 }
 
 .emphasis {
-    color: var(--cor4);
+    color: var(--cor3);
     font-weight: bold;
 }
 
@@ -110,11 +110,11 @@ header {
 }
 
 #english {
-    background-image: linear-gradient(to right, var(--cor3) 70%, var(--cor5));
+    background-image: linear-gradient(to right, var(--cor3) 75%, var(--cor5), var(--cor5), var(--cor5), var(--cor5));
 }
 
 #spanish {
-    background-image: linear-gradient(to right, var(--cor3) 25%, var(--cor5), var(--cor5), var(--cor5));
+    background-image: linear-gradient(to right, var(--cor3) 25%, var(--cor5), var(--cor5), var(--cor5), var(--cor5));
 }
 
 #education > h2 {
