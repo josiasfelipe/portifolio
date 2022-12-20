@@ -110,7 +110,7 @@ header {
 }
 
 #english {
-    background-image: linear-gradient(to right, var(--cor3) 75%, var(--cor5), var(--cor5), var(--cor5), var(--cor5));
+    background-image: linear-gradient(to right, var(--cor3) 85%, var(--cor5), var(--cor5), var(--cor5), var(--cor5));
 }
 
 #spanish {
