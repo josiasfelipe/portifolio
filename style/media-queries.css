@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/*
+Typical Device Breakpoint 2023
+----------------------------
+Mobile – 360 x 640; 375 x 667; 360 x 720.
+Tablet – 768 x 1024.
+iPhone – 375 x 812.
+Laptop – 1366 x 768.
+Desktop or high-resolution laptop – 1920 x 1080.
+*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) { /* TABLETS */
+    body {
+        background-color: gray;
+    }
+}
+
+@media screen and (min-width: 1024px) { /* DESKTOP & GRANDES TELAS */
+    body {
+        background-color: olive;
+    }
+}
