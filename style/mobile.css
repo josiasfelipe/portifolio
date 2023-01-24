@@ -6,7 +6,7 @@
 }
 
 :root {
-    --cor1: #202e26;
+    --cor1: #131b17;
     --cor2: #317e54;
     --cor3: #327e54;
     --cor4: #4BBD7E;
@@ -72,6 +72,7 @@ header {
 div#image {
     display: block;
     background: var(--cor1) url(../images/Opa-pp.jpg) no-repeat center;
+    background-size: cover;
     font: var(--fonte_padrao);
     height: 96px;
     width: 96px;
