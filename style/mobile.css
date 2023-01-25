@@ -18,15 +18,15 @@
 
 @keyframes glowing-animation {
     0% {
-        box-shadow: 0px 0px 4px var(--cor4);
+        text-shadow: 0px 0px 1px var(--cor5);
     }
 
     50% {
-        box-shadow: 0px 0px 20px var(--cor4);
+        text-shadow: 0px 0px 3px var(--cor5);
     }
 
     100% {
-        box-shadow: 0px 0px 4px var(--cor4);
+        text-shadow: 0px 0px 1px var(--cor5);
     }
 }
 
@@ -42,6 +42,24 @@
     */
 
     animation: glowing-animation 2.5s ease infinite;
+}
+
+@keyframes border-animation {
+    0% {
+        border-radius: 10px 50px;
+    }
+
+    50% {
+        border-radius: 50px 10px;
+    }
+
+    100% {
+        border-radius: 10px 50px;
+    }
+}
+
+.border-animation {
+    animation: border-animation 7.5s ease infinite;
 }
 
 html, body {
