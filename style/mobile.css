@@ -6,14 +6,14 @@
 }
 
 :root {
-    --cor1: #131b17;
+    --cor1: #111814;
     --cor2: #317e54;
     --cor3: #327e54;
     --cor4: #4BBD7E;
     --cor5: #8CC8A7;
 
-    --fonte_padrao: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    --fonte_destaque: 'Bebas Neue', cursive;
+    --fonte_padrao: 'Comfortaa', cursive;
+    --fonte_destaque: 'Kaushan Script', cursive;
 }
 
 @keyframes glowing-animation {
@@ -85,6 +85,7 @@ header {
     color: rgb(0, 238, 255);
     text-align: center;
     font-family: var(--fonte_padrao);
+    font-size: 4.5vw;
 }
 
 div#image {
@@ -103,7 +104,8 @@ div#image {
 #presentation > h1 {
     margin-top: 6px;
     margin-bottom: 20px;
-    font-family: system-ui, sans-serif;
+    font-family: var(--fonte_destaque);
+    font-size: 10vw;
     color: var(--cor4);
     text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.616);
 }
